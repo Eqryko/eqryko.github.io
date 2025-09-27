@@ -1,0 +1,101 @@
+
+html{
+  max-width: 100%;
+}
+
+body {
+    background-color: #3d3d3d;
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+#explanation {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 22px;
+}
+
+img, iframe {
+    width: 40%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+hr {
+    color: black;
+    background: black;
+    border: 0;
+    height: 3px;
+    margin: 0;
+}
+
+.Nav {
+    z-index: 1;
+    margin: -8px;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    justify-content: center;
+    gap: 100px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 30px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.Nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.Main {
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer p {
+    position: absolute;
+    text-align: left;
+}
+
+footer i {
+    color: #bbb;
+}
