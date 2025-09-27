@@ -3,7 +3,7 @@ function openImage(){
     window.open(newUrl, "_self");
 }
 
-const apiKey = "ooA3JQ8fnLy8kTGMXUi2Iil4dvaF4ZCwjDj91Qe8";
+const apiKey = "DEMO_KEY";
 const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
 var newUrl;
 
@@ -35,4 +35,5 @@ fetch(url) // richiesta HTTP -> Promise
         newUrl = data.url;
     })
 .catch(err => console.error(err));
+
 
